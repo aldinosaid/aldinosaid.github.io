@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aldino Said | Portfolio</title>
+  <meta name="description" content="Personal Portfolio of Aldino Said - Software Developer & Tech Enthusiast">
+  <!-- Google Fonts & Font Awesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="logo">
+        <span class="logo-bracket">&lt;</span>aldino<span class="logo-accent">.said</span><span class="logo-bracket">/&gt;</span>
+      </a>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#about" class="nav-link">Tentang</a></li>
+        <li><a href="#skills" class="nav-link">Keahlian</a></li>
+        <li><a href="#projects" class="nav-link">Proyek</a></li>
+        <li><a href="#experience" class="nav-link">Pengalaman</a></li>
+        <li><a href="#contact" class="nav-link">Kontak</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero" id="home">
+    <div class="hero-bg-blobs">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+    </div>
+    <div class="hero-container">
+      <div class="hero-badge">
+        <span class="status-indicator"></span> Siap untuk Peluang & Kolaborasi Baru
+      </div>
+      <h1 class="hero-title">
+        Halo, Saya <span class="gradient-text">Aldino Said</span> 👋
+      </h1>
+      <p class="hero-subtitle">
+        Software Developer & Tech Enthusiast yang fokus membangun aplikasi modern, performan tinggi, dan pengalaman digital yang menyenangkan.
+      </p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">
+          <i class="fa-solid fa-layer-group"></i> Lihat Proyek
+        </a>
+        <a href="#contact" class="btn btn-secondary">
+          <i class="fa-regular fa-envelope"></i> Hubungi Saya
+        </a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/aldinosaid" target="_blank" rel="noopener noreferrer" title="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://linkedin.com/in/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="mailto:contact@aldinosaid.github.io" title="Email">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- About Section -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Ringkasan</span>
+          <h2 class="section-title">Tentang Saya</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-card about-intro">
+            <div class="about-avatar-placeholder">
+              <i class="fa-solid fa-user-astronaut"></i>
+            </div>
+            <h3>Passionate Creator & Developer</h3>
+            <p>
+              Saya adalah seorang pengembang perangkat lunak yang berfokus pada teknologi web modern. Memiliki ketertarikan mendalam dalam arsitektur sistem, clean code, serta desain antarmuka pengguna yang bersih dan intuitif.
+            </p>
+            <div class="about-stats">
+              <div class="stat-item">
+                <span class="stat-number">3+</span>
+                <span class="stat-label">Tahun Pengalaman</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">15+</span>
+                <span class="stat-label">Proyek Selesai</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">100%</span>
+                <span class="stat-label">Dedikasi & Detail</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-card about-highlights">
+            <h3>Fokus & Minat</h3>
+            <ul class="highlight-list">
+              <li>
+                <div class="hl-icon"><i class="fa-solid fa-code"></i></div>
+                <div>
+                  <strong>Full-Stack Web Development</strong>
+                  <p>Membangun frontend interaktif dan backend API yang scalable.</p>
+                </div>
+              </li>
+              <li>
+                <div class="hl-icon"><i class="fa-solid fa-bolt"></i></div>
+                <div>
+                  <strong>Performance & SEO Optimization</strong>
+                  <p>Memastikan website cepat diakses dan terstruktur dengan standar modern.</p>
+                </div>
+              </li>
+              <li>
+                <div class="hl-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+                <div>
+                  <strong>Responsive & Accessible Design</strong>
+                  <p>Tampilan adaptif dan nyaman digunakan di semua ukuran layar gadget.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Kompetensi</span>
+          <h2 class="section-title">Tech Stack & Keahlian</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <div class="category-header">
+              <i class="fa-solid fa-laptop-code"></i>
+              <h3>Frontend</h3>
+            </div>
+            <div class="badges-wrap">
+              <span class="skill-badge"><i class="fa-brands fa-html5"></i> HTML5</span>
+              <span class="skill-badge"><i class="fa-brands fa-css3-alt"></i> CSS3 / SCSS</span>
+              <span class="skill-badge"><i class="fa-brands fa-js"></i> JavaScript (ES6+)</span>
+              <span class="skill-badge"><i class="fa-brands fa-react"></i> React / Next.js</span>
+              <span class="skill-badge"><i class="fa-brands fa-vuejs"></i> Vue.js</span>
+              <span class="skill-badge"><i class="fa-solid fa-wind"></i> Tailwind CSS</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="category-header">
+              <i class="fa-solid fa-server"></i>
+              <h3>Backend & Database</h3>
+            </div>
+            <div class="badges-wrap">
+              <span class="skill-badge"><i class="fa-brands fa-node"></i> Node.js</span>
+              <span class="skill-badge"><i class="fa-brands fa-python"></i> Python</span>
+              <span class="skill-badge"><i class="fa-solid fa-database"></i> PostgreSQL</span>
+              <span class="skill-badge"><i class="fa-solid fa-database"></i> MySQL</span>
+              <span class="skill-badge"><i class="fa-solid fa-leaf"></i> MongoDB</span>
+              <span class="skill-badge"><i class="fa-solid fa-network-wired"></i> REST API</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <div class="category-header">
+              <i class="fa-solid fa-toolbox"></i>
+              <h3>Tools & DevOps</h3>
+            </div>
+            <div class="badges-wrap">
+              <span class="skill-badge"><i class="fa-brands fa-git-alt"></i> Git & GitHub</span>
+              <span class="skill-badge"><i class="fa-brands fa-docker"></i> Docker</span>
+              <span class="skill-badge"><i class="fa-solid fa-terminal"></i> Linux / Bash</span>
+              <span class="skill-badge"><i class="fa-brands fa-figma"></i> Figma</span>
+              <span class="skill-badge"><i class="fa-solid fa-cloud"></i> Vercel / Netlify</span>
+              <span class="skill-badge"><i class="fa-solid fa-vial"></i> Jest / Testing</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Portofolio</span>
+          <h2 class="section-title">Proyek Pilihan</h2>
+          <p class="section-desc">Beberapa karya dan proyek yang pernah saya kembangkan.</p>
+        </div>
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-img-container">
+              <div class="project-img-fallback bg-gradient-1">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span>Next.js</span>
+                <span>TypeScript</span>
+                <span>Tailwind</span>
+              </div>
+              <h3 class="project-title">E-Commerce Platform</h3>
+              <p class="project-desc">
+                Platform belanja online modern dengan integrasi payment gateway, sistem keranjang real-time, dan dashboard admin komprehensif.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/aldinosaid" target="_blank" class="proj-link"><i class="fa-brands fa-github"></i> Repository</a>
+                <a href="#" class="proj-link demo-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-img-container">
+              <div class="project-img-fallback bg-gradient-2">
+                <i class="fa-solid fa-chart-pie"></i>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>PostgreSQL</span>
+              </div>
+              <h3 class="project-title">Analytics & Task Dashboard</h3>
+              <p class="project-desc">
+                Aplikasi manajemen tugas tim dengan visualisasi data interaktif, notifikasi real-time, dan manajemen kolaborator.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/aldinosaid" target="_blank" class="proj-link"><i class="fa-brands fa-github"></i> Repository</a>
+                <a href="#" class="proj-link demo-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-img-container">
+              <div class="project-img-fallback bg-gradient-3">
+                <i class="fa-solid fa-brain"></i>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-tags">
+                <span>Python</span>
+                <span>FastAPI</span>
+                <span>AI / LLM</span>
+              </div>
+              <h3 class="project-title">AI Knowledge Assistant</h3>
+              <p class="project-desc">
+                Asisten cerdas berbasis Retrieval-Augmented Generation (RAG) untuk merangkum dan mencari informasi penting dari dokumen perusahaan.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/aldinosaid" target="_blank" class="proj-link"><i class="fa-brands fa-github"></i> Repository</a>
+                <a href="#" class="proj-link demo-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience / Timeline -->
+    <section class="section section-alt" id="experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Perjalanan Karir</span>
+          <h2 class="section-title">Pengalaman Kerja & Pendidikan</h2>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2023 - Sekarang</span>
+              <h3>Full Stack Developer</h3>
+              <h4 class="timeline-company">Tech Company / Freelance</h4>
+              <p>Mengembangkan dan memelihara aplikasi web skala enterprise, mengoptimalkan query database, dan merancang antarmuka modular.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2021 - 2023</span>
+              <h3>Frontend Developer</h3>
+              <h4 class="timeline-company">Digital Agency</h4>
+              <p>Membangun website responsif untuk berbagai klien internasional dengan performa tinggi dan cross-browser compatibility.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2018 - 2022</span>
+              <h3>S1 Ilmu Komputer / Teknik Informatika</h3>
+              <h4 class="timeline-company">Universitas</h4>
+              <p>Mendalami algoritma, struktur data, rekayasa perangkat lunak, dan kecerdasan buatan.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Koneksi</span>
+          <h2 class="section-title">Mari Terhubung</h2>
+          <p class="section-desc">Punya ide proyek, tawaran kerjasama, atau sekadar ingin berdiskusi? Kirimkan pesan Anda!</p>
+        </div>
+        <div class="contact-card">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fa-solid fa-envelope"></i>
+              <div>
+                <strong>Email</strong>
+                <a href="mailto:aldinosaid@example.com">aldinosaid@example.com</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fa-brands fa-github"></i>
+              <div>
+                <strong>GitHub</strong>
+                <a href="https://github.com/aldinosaid" target="_blank">github.com/aldinosaid</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <div>
+                <strong>Lokasi</strong>
+                <span>Indonesia</span>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form" onsubmit="event.preventDefault(); alert('Terima kasih! Fitur pesan ini siap diintegrasikan dengan Formspree atau email Anda.');">
+            <div class="form-group">
+              <label for="name">Nama Lengkap</label>
+              <input type="text" id="name" required placeholder="Nama Anda">
+            </div>
+            <div class="form-group">
+              <label for="email">Alamat Email</label>
+              <input type="email" id="email" required placeholder="nama@email.com">
+            </div>
+            <div class="form-group">
+              <label for="message">Pesan</label>
+              <textarea id="message" rows="4" required placeholder="Tuliskan pesan atau ide proyek Anda..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">
+              <i class="fa-solid fa-paper-plane"></i> Kirim Pesan
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; <span id="current-year"></span> Aldino Said. Dibuat dengan passion dan di-host di GitHub Pages.</p>
+      <div class="footer-links">
+        <a href="#home">Kembali ke Atas <i class="fa-solid fa-arrow-up"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
